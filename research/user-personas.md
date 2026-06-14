@@ -9,16 +9,16 @@ These personas are not based on formal interviews but are intended to guide desi
 ## Primary Persona: Busy Local Customer
 
 ### Name
-Sarah Chen
+Hania Amir
 
 ### Age
-27
+29
 
 ### Occupation
 Marketing Associate
 
 ### Context of Use
-Sarah typically orders takeout or delivery after work or on weekends. She often uses her phone to search for nearby restaurants, read reviews, and place orders quickly with minimal friction.
+Hanua typically orders takeout or delivery after work or on weekends. She often uses her phone to search for nearby restaurants, read reviews, and place orders quickly with minimal friction.
 
 She discovers restaurants through Google Maps, word of mouth, or delivery apps, and expects fast access to menus, pricing, and ordering options.
 
@@ -26,7 +26,7 @@ She discovers restaurants through Google Maps, word of mouth, or delivery apps, 
 
 ### Goals
 
-Sarah’s main goal is to decide what to eat quickly and confidently without spending too much time searching across multiple apps or websites. She wants to be able to view the menu clearly, identify popular dishes, and understand what the restaurant is known for.
+Hania’s main goal is to decide what to eat quickly and confidently without spending too much time searching across multiple apps or websites. She wants to be able to view the menu clearly, identify popular dishes, and understand what the restaurant is known for.
 
 She also wants to avoid confusion caused by inconsistent or outdated information across different platforms.
 
@@ -65,7 +65,7 @@ She also wants to avoid confusion caused by inconsistent or outdated information
 ## Secondary Persona: Curious First-Time Visitor
 
 ### Name
-Michael Torres
+Bilal Abbas Khan
 
 ### Age
 34
@@ -74,7 +74,7 @@ Michael Torres
 Software Engineer
 
 ### Context of Use
-Michael is exploring new restaurants in his area. He is not necessarily looking to order immediately but wants to learn more about the restaurant before deciding whether it is worth visiting or ordering from.
+Bilal is exploring new restaurants in his area. He is not necessarily looking to order immediately but wants to learn more about the restaurant before deciding whether it is worth visiting or ordering from.
 
 He tends to value information, credibility, and presentation when evaluating new places.
 
@@ -82,7 +82,7 @@ He tends to value information, credibility, and presentation when evaluating new
 
 ### Goals
 
-Michael wants to understand what makes the restaurant unique, what type of food it offers, and whether it aligns with his preferences. He is interested in exploring the menu, reading about the restaurant’s background, and viewing photos of dishes.
+Bilal wants to understand what makes the restaurant unique, what type of food it offers, and whether it aligns with his preferences. He is interested in exploring the menu, reading about the restaurant’s background, and viewing photos of dishes.
 
 ---
 
