@@ -2,302 +2,167 @@
 
 ## Overview
 
-This project is a UX/UI design case study focused on creating a complete digital experience for an independent Chinese restaurant that currently relies on third-party delivery platforms as its primary online presence.
+This is a UX/UI case study focused on designing a responsive website for an independent Chinese restaurant that currently relies on third-party delivery platforms such as DoorDash and Grubhub as its main digital presence.
 
-While customers can discover the restaurant through services such as DoorDash and Grubhub, the business does not maintain a dedicated website where visitors can explore the menu, learn about the restaurant, or engage with the brand directly. As a result, much of the customer journey occurs on platforms that prioritize transactions rather than the restaurant's identity, story, and customer experience.
+While these platforms allow customers to place orders, they do not provide a centralized or branded experience for the restaurant itself. Important information such as the menu, restaurant story, and updates is fragmented across multiple services, which limits both usability for customers and brand control for the business.
 
-The goal of this project is to design a modern, responsive website that helps customers discover information more easily while providing the restaurant with a stronger and more recognizable digital presence.
+The goal of this project is to design a dedicated website that improves how users discover, explore, and interact with the restaurant while strengthening its independent digital identity.
 
-This case study documents the complete design process, including research, problem definition, information architecture, wireframing, visual design, prototyping, usability testing, and iterative improvements.
-
----
-
-## Project Objective
-
-The objective of this project is to design a website that improves the experience of discovering, exploring, and ordering from the restaurant while establishing a stronger digital identity independent of third-party delivery services.
-
-The project aims to balance user needs with business goals by creating an experience that is both intuitive and visually engaging.
+This case study includes the full design process: research, problem definition, user flows, information architecture, wireframing, UI design, and prototyping in Figma.
 
 ---
 
 ## Problem Statement
 
-The restaurant currently lacks a dedicated online presence beyond third-party ordering applications.
+The restaurant does not have a dedicated website and instead depends on third-party delivery platforms for online visibility and ordering.
 
-Customers searching for information about the restaurant must navigate multiple platforms to access menus, reviews, operating hours, and ordering options. This fragmented experience creates unnecessary friction and limits opportunities for the restaurant to communicate its personality, values, and unique offerings.
-
-Without a dedicated website, the restaurant has limited control over how customers interact with its brand online.
+This creates a fragmented experience where users must move between multiple platforms to find basic information such as the menu, hours, location, and ordering options. As a result, the restaurant has limited control over branding and customer experience, and users face unnecessary friction when trying to evaluate or order from the business.
 
 ### Design Challenge
 
-How might we design a website that allows customers to easily discover information, browse the menu, and place orders while helping the restaurant establish a stronger independent online presence?
+How might we design a clear and cohesive digital experience that allows users to easily discover the restaurant, browse the menu, and place orders while strengthening the restaurant’s independent brand presence?
 
 ---
 
 ## Goals
 
 ### User Goals
-
-Users should be able to quickly understand what the restaurant offers, browse menu items comfortably, locate important business information, and access ordering options without unnecessary complexity.
-
-The experience should feel intuitive, accessible, and optimized for mobile devices, where many restaurant-related searches occur.
+Users should be able to quickly understand what the restaurant offers, browse the menu without confusion, find accurate business information, and access ordering options with minimal friction. The experience should feel fast, clear, and mobile-friendly.
 
 ### Business Goals
-
-The website should strengthen the restaurant's digital identity, improve customer engagement, increase visibility, and provide a foundation for direct customer relationships.
-
-The design should communicate professionalism, trust, and authenticity while supporting long-term business growth.
+The restaurant should gain a stronger digital identity, improved visibility, and better control over how its brand is presented online. The website should also encourage direct engagement and reduce reliance on third-party platforms over time.
 
 ---
 
-## Research & Discovery
+## Research Summary
 
-### Initial Assumptions
+Research was conducted through competitive analysis, observation of delivery platforms, and review of existing restaurant websites.
 
-Before beginning the design process, several assumptions were identified:
+Key findings:
+- Users prioritize fast access to menus above all other information
+- Mobile devices are the primary way users browse restaurants
+- Delivery platforms are efficient but weak in brand storytelling
+- Information is often inconsistent across different services
+- Visual presentation strongly influences user trust and decision-making
 
-* Customers frequently discover restaurants through search engines and map applications.
-* Mobile devices are the primary platform for restaurant browsing.
-* Menu accessibility strongly influences user satisfaction.
-* Customers want quick access to ordering information.
-* Independent restaurants benefit from having a recognizable digital identity.
-
-These assumptions will be evaluated throughout the project through research and testing.
-
-### Competitive Analysis
-
-A review of restaurant websites was conducted to identify industry standards, common design patterns, and opportunities for differentiation.
-
-The analysis focused on:
-
-* Navigation structure
-* Menu presentation
-* Mobile responsiveness
-* Ordering experiences
-* Visual branding
-* Information hierarchy
-
-Insights gathered during this phase informed both UX and UI decisions throughout the project.
-
-### User Research
-
-User research focuses on understanding how customers search for restaurants, what information they prioritize, and where frustrations occur during the discovery and ordering process.
-
-Research activities may include interviews, surveys, observational research, and analysis of customer reviews.
-
-Key findings will be documented and updated throughout the project.
+These findings highlight the need for a centralized, mobile-first website with a strong focus on menu clarity and visual hierarchy.
 
 ---
 
 ## User Persona
 
-A representative user persona was developed based on research findings and assumptions.
-
 ### Sarah Chen
 
-Sarah is a 27-year-old professional who frequently orders takeout using her smartphone. She values convenience and wants to quickly browse menu items, compare options, and place orders without navigating multiple websites or applications.
-
-Her decision-making process is influenced by menu presentation, reviews, ease of navigation, and the overall credibility of the restaurant's online presence.
+Sarah is a 27-year-old professional who frequently orders food on her phone. She looks for quick, reliable information when deciding where to eat and prefers interfaces that allow her to browse menus and place orders without unnecessary steps.
 
 ### Goals
-
-* Quickly browse menu items
-* Access accurate business information
-* Discover recommended dishes
-* Place orders efficiently
+- Quickly browse menu options
+- Find trusted and accurate restaurant information
+- Make fast ordering decisions
 
 ### Pain Points
-
-* Fragmented information across multiple platforms
-* Poor mobile experiences
-* Outdated or incomplete information
-* Difficulty evaluating menu options
+- Fragmented information across multiple platforms
+- Poorly structured or hard-to-read menus
+- Lack of clear recommendations or highlights
+- Limited understanding of the restaurant’s identity
 
 ---
 
 ## Information Architecture
 
-The website structure was designed to prioritize the information most frequently accessed by restaurant customers.
+The website structure is designed around the most important user needs: discovering the restaurant, viewing the menu, and accessing ordering and location information.
 
 ### Site Structure
 
-Home
+- Home (featured dishes, quick actions, ordering access)
+- Menu (organized categories such as appetizers, mains, noodles, specials)
+- About (restaurant story and background)
+- Location & Hours (address, hours, directions)
+- Order Online (links to delivery platforms or ordering flow)
+- Contact (general inquiries and phone details)
 
-* Featured Dishes
-* Promotions
-* Quick Access to Ordering
-
-Menu
-
-* Appetizers
-* Entrées
-* Noodles & Rice
-* Specials
-* Beverages
-
-About
-
-* Restaurant Story
-* Background
-* Values
-
-Location & Hours
-
-* Address
-* Hours
-* Directions
-
-Order Online
-
-* Ordering Options
-* Delivery Information
-
-Contact
-
-* Contact Information
-* General Inquiries
-
-This structure aims to reduce friction and improve information discoverability.
+This structure prioritizes simplicity and fast access to key tasks.
 
 ---
 
-## Wireframes
+## UX Flows
 
-Low-fidelity wireframes were created to explore layout options, content hierarchy, navigation systems, and user flows before introducing visual design elements.
+The main user flows were designed around three core actions:
 
-The primary objective of this phase was to establish a strong foundation for usability and information organization.
+### 1. Browsing the Menu
+User lands on homepage → navigates to menu → browses categories → views dish details → decides what to order
 
-Wireframes focused on:
+### 2. Placing an Order
+User selects “Order Online” → chooses delivery platform → is redirected to external service → completes order
 
-* Navigation clarity
-* Mobile-first layouts
-* Content prioritization
-* User task completion
+### 3. Finding Restaurant Information
+User navigates to About or Location page → views story, hours, and address → optionally proceeds to menu or ordering
 
-Wireframes and iterations will be documented as the project evolves.
+These flows prioritize speed, clarity, and minimal friction.
 
 ---
 
 ## UI Design
 
-Following the wireframing phase, high-fidelity user interfaces were designed in Figma to establish the visual direction of the product.
+High-fidelity UI designs were created in Figma with a mobile-first approach.
 
-The visual design seeks to create an experience that feels welcoming, modern, and representative of the restaurant while remaining highly functional and accessible.
-
-Design decisions were informed by research findings, usability considerations, and branding objectives.
+The visual design focuses on clarity, strong hierarchy, and a welcoming tone that reflects the restaurant’s identity. Special attention was given to menu readability, visual emphasis on popular dishes, and clear call-to-action placement for ordering.
 
 ---
 
 ## Design System
 
-A lightweight design system was developed to ensure visual consistency throughout the experience.
+A lightweight design system was created to maintain consistency across the interface.
 
-### Typography
+- Typography: chosen for readability and clear hierarchy
+- Color system: designed to feel warm, authentic, and accessible
+- Components: reusable elements such as buttons, menu cards, navigation bars, and forms
 
-Typography was selected to maximize readability while creating a clear visual hierarchy across content sections, menus, and calls to action.
-
-### Color Palette
-
-Color choices were made to support the restaurant's brand identity while maintaining accessibility and sufficient contrast across devices.
-
-### Components
-
-Reusable interface components were created to maintain consistency throughout the product.
-
-Examples include:
-
-* Navigation bars
-* Buttons
-* Menu cards
-* Promotional banners
-* Contact forms
-* Footer components
-
-The design system provides a scalable foundation for future iterations and expansion.
+This system supports scalability and consistency across all pages.
 
 ---
 
-## High-Fidelity Screens
+## Prototype
 
-High-fidelity designs were developed for the core areas of the website.
+An interactive prototype was built in Figma to test navigation flow, menu exploration, and ordering pathways.
 
-Screens include:
+The prototype focuses on:
+- Ease of navigation
+- Menu discoverability
+- Mobile usability
+- Clear ordering pathways
 
-* Homepage
-* Menu Experience
-* About Page
-* Location & Hours
-* Online Ordering Experience
-* Contact Page
-
-Each screen was refined through multiple iterations based on feedback and usability considerations.
-
----
-
-## Interactive Prototype
-
-Interactive prototypes were created in Figma to simulate realistic user interactions and validate key user flows.
-
-The prototype focuses on evaluating:
-
-* Navigation efficiency
-* Information discoverability
-* Ordering pathways
-* Mobile responsiveness
-* Overall usability
-
-Prototype links will be added as development progresses.
-
----
-
-## Usability Testing
-
-Usability testing will be conducted to evaluate how effectively users can complete common tasks within the proposed experience.
-
-Participants will be asked to perform realistic scenarios such as locating restaurant hours, browsing menu items, and navigating toward ordering options.
-
-Findings, observations, and resulting design changes will be documented in this section.
+[Figma Prototype Link]
 
 ---
 
 ## Reflection
 
-This project serves as an opportunity to practice the complete UX/UI design process while working within a realistic business context.
+This project demonstrates a full UX/UI design process from research to high-fidelity execution. The focus was not only on visual design, but also on improving how users access information and interact with the restaurant online.
 
-Rather than focusing exclusively on the final interface, this case study emphasizes research, iteration, design rationale, and problem-solving. The project is intended to demonstrate both strategic UX thinking and visual UI design skills.
+Key learning outcomes include understanding how fragmented digital ecosystems affect user behavior, and how a well-structured website can improve both usability and brand identity.
 
 ---
 
-## Future Opportunities
+## Future Improvements
 
-Potential future enhancements include:
-
-* Integrated ordering systems
-* Loyalty programs
-* Customer accounts
-* Reservation functionality
-* Accessibility improvements
-* Personalized recommendations
-* Marketing and promotional features
+Future iterations of this project could include:
+- Direct ordering integration
+- Loyalty or rewards system
+- Reservations
+- Accessibility improvements
+- Personalized recommendations
 
 ---
 
 ## Tools
 
-* Figma
-* FigJam
-* GitHub
-
----
-
-## Project Status
-
-Current Phase: Research & Discovery
-
-This repository will be updated throughout the design process as new findings, iterations, prototypes, and design decisions are made.
+- Figma
+- FigJam
+- GitHub
 
 ---
 
 ## Author
 
-[Your Name]
+Sehr Abrar
