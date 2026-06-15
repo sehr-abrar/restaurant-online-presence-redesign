@@ -51,9 +51,9 @@ These findings highlight the need for a centralized, mobile-first website with a
 
 ## User Persona
 
-### Sarah Chen
+### Hania Amir
 
-Sarah is a 27-year-old professional who frequently orders food on her phone. She looks for quick, reliable information when deciding where to eat and prefers interfaces that allow her to browse menus and place orders without unnecessary steps.
+Sarah is a 29-year-old professional who frequently orders food on her phone. She looks for quick, reliable information when deciding where to eat and prefers interfaces that allow her to browse menus and place orders without unnecessary steps.
 
 ### Goals
 - Quickly browse menu options
