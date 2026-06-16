@@ -1,0 +1,245 @@
+.modal {
+  position: fixed;
+  inset: 0;
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.modal__backdrop {
+  position: absolute;
+  inset: 0;
+  background: rgba(43, 37, 32, 0.55);
+  backdrop-filter: blur(2px);
+  animation: fadeUp 0.2s ease;
+}
+
+.modal__panel {
+  position: relative;
+  width: 100%;
+  max-width: 540px;
+  max-height: 90vh;
+  background: var(--paper);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-lg);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  animation: fadeUp 0.25s ease;
+}
+
+.modal__close {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  z-index: 2;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  border: 0;
+  background: var(--cream);
+  font-size: 1rem;
+  color: var(--ink);
+  box-shadow: var(--shadow-sm);
+}
+
+.modal__head {
+  padding: 28px 28px 20px;
+  border-bottom: 1px solid var(--line);
+  background: var(--gold-soft);
+}
+
+.modal__head h2 {
+  font-size: 1.6rem;
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+  flex-wrap: wrap;
+  padding-right: 36px;
+}
+
+.modal__zh {
+  font-family: var(--font-body);
+  font-weight: 500;
+  font-size: 0.9rem;
+  color: var(--ink-soft);
+}
+
+.modal__head p {
+  color: #8a6a3a;
+  margin: 8px 0 10px;
+  font-size: 0.96rem;
+}
+
+.modal__base {
+  font-family: var(--font-display);
+  font-weight: 600;
+  color: var(--coral-dark);
+  font-size: 1.15rem;
+}
+
+.modal__body {
+  padding: 22px 28px;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+}
+
+.modal__group {
+  border: 0;
+}
+
+.modal__group legend {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: 1.1rem;
+  margin-bottom: 12px;
+}
+
+.modal__req,
+.modal__opt {
+  font-family: var(--font-body);
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  padding: 3px 8px;
+  border-radius: 999px;
+}
+
+.modal__req {
+  background: #ffe3d6;
+  color: var(--coral-dark);
+}
+
+.modal__opt {
+  background: var(--mint);
+  color: var(--green-dark);
+}
+
+.modal__choices {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.modal__choice {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  border: 1.5px solid var(--line);
+  background: var(--paper);
+  border-radius: 12px;
+  padding: 10px 16px;
+  font-size: 0.95rem;
+  font-weight: 500;
+  color: var(--ink);
+  transition: all 0.14s ease;
+}
+
+.modal__choice:hover {
+  border-color: var(--green);
+}
+
+.modal__choice.is-active {
+  border-color: var(--coral);
+  background: #fff4ee;
+  color: var(--coral-dark);
+  font-weight: 600;
+}
+
+.modal__choice em {
+  font-style: normal;
+  font-size: 0.85rem;
+  color: var(--ink-soft);
+}
+
+.modal__choice.is-active em {
+  color: var(--coral);
+}
+
+.modal__notes {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  font-weight: 600;
+  font-size: 0.95rem;
+}
+
+.modal__notes textarea {
+  font-family: inherit;
+  font-size: 0.95rem;
+  padding: 12px 14px;
+  border: 1.5px solid var(--line);
+  border-radius: 12px;
+  background: var(--cream);
+  resize: vertical;
+}
+
+.modal__notes textarea:focus {
+  outline: none;
+  border-color: var(--coral);
+}
+
+.modal__foot {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 18px 28px;
+  border-top: 1px solid var(--line);
+  background: var(--paper);
+}
+
+.modal__qty {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  border: 1.5px solid var(--line);
+  border-radius: 999px;
+  padding: 4px;
+}
+
+.modal__qty button {
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  border: 0;
+  background: var(--cream);
+  font-size: 1.2rem;
+  color: var(--ink);
+  display: grid;
+  place-items: center;
+}
+
+.modal__qty button:hover {
+  background: var(--mint);
+}
+
+.modal__qty span {
+  min-width: 28px;
+  text-align: center;
+  font-weight: 600;
+}
+
+.modal__add {
+  flex: 1;
+}
+
+@media (max-width: 520px) {
+  .modal {
+    padding: 0;
+    align-items: flex-end;
+  }
+  .modal__panel {
+    max-width: 100%;
+    max-height: 94vh;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+}

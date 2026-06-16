@@ -1,0 +1,205 @@
+/* ===========================================================================
+   WokWise — Design System
+   Color palette (from brand spec):
+     --coral  #FE5D26  primary action / brand accent
+     --gold   #F2C078  secondary / warm highlight
+     --mint   #C1DBB3  soft surface / backgrounds
+     --green  #7EBC89  fresh accent / success
+   =========================================================================== */
+
+:root {
+  --coral: #fe5d26;
+  --coral-dark: #e24a18;
+  --gold: #f2c078;
+  --gold-soft: #fae3bf;
+  --mint: #c1dbb3;
+  --green: #7ebc89;
+  --green-dark: #5fa46d;
+
+  --ink: #2b2520;
+  --ink-soft: #6a615a;
+  --cream: #fdf8f1;
+  --paper: #ffffff;
+  --line: #ece3d6;
+
+  --font-display: 'Fraunces', Georgia, serif;
+  --font-body: 'Inter', system-ui, -apple-system, sans-serif;
+
+  --shadow-sm: 0 1px 2px rgba(43, 37, 32, 0.06);
+  --shadow-md: 0 8px 24px rgba(43, 37, 32, 0.1);
+  --shadow-lg: 0 20px 50px rgba(43, 37, 32, 0.16);
+
+  --radius: 16px;
+  --radius-lg: 28px;
+  --maxw: 1160px;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-body);
+  color: var(--ink);
+  background: var(--cream);
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4 {
+  font-family: var(--font-display);
+  line-height: 1.1;
+  font-weight: 600;
+  color: var(--ink);
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+}
+
+/* ---- Layout helpers ---- */
+.container {
+  width: 100%;
+  max-width: var(--maxw);
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+.section {
+  padding: 88px 0;
+}
+
+.section-sm {
+  padding: 56px 0;
+}
+
+.eyebrow {
+  display: inline-block;
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--coral);
+  margin-bottom: 14px;
+}
+
+.section-title {
+  font-size: clamp(1.9rem, 4vw, 2.8rem);
+  margin-bottom: 14px;
+}
+
+.section-lead {
+  color: var(--ink-soft);
+  max-width: 560px;
+  font-size: 1.05rem;
+}
+
+/* ---- Buttons ---- */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  border: 0;
+  border-radius: 999px;
+  padding: 13px 26px;
+  font-size: 0.98rem;
+  font-weight: 600;
+  transition: transform 0.15s ease, box-shadow 0.15s ease, background 0.15s ease;
+  text-align: center;
+}
+
+.btn:hover {
+  transform: translateY(-2px);
+}
+
+.btn-primary {
+  background: var(--coral);
+  color: #fff;
+  box-shadow: var(--shadow-sm);
+}
+
+.btn-primary:hover {
+  background: var(--coral-dark);
+  box-shadow: var(--shadow-md);
+}
+
+.btn-secondary {
+  background: var(--ink);
+  color: var(--cream);
+}
+
+.btn-secondary:hover {
+  background: #3c332b;
+}
+
+.btn-ghost {
+  background: transparent;
+  color: var(--ink);
+  border: 1.5px solid var(--line);
+}
+
+.btn-ghost:hover {
+  border-color: var(--coral);
+  color: var(--coral);
+}
+
+/* ---- Reusable cards / pills ---- */
+.tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  padding: 4px 11px;
+  border-radius: 999px;
+}
+
+.tag-spicy { background: #ffe3d6; color: var(--coral-dark); }
+.tag-veg   { background: var(--mint); color: var(--green-dark); }
+.tag-pop   { background: var(--gold-soft); color: #a9711a; }
+
+.fade-up {
+  animation: fadeUp 0.6s ease both;
+}
+
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(16px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+/* ---- Page header (shared by interior pages) ---- */
+.page-head {
+  background: linear-gradient(180deg, var(--gold-soft), var(--cream));
+  padding: 120px 0 56px;
+  text-align: center;
+}
+
+.page-head h1 {
+  font-size: clamp(2.2rem, 5vw, 3.4rem);
+}
+
+.page-head p {
+  color: var(--ink-soft);
+  max-width: 600px;
+  margin: 14px auto 0;
+}
