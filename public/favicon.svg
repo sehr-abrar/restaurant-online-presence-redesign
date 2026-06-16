@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <rect width="64" height="64" rx="14" fill="#FE5D26"/>
+  <!-- chopsticks -->
+  <rect x="34" y="10" width="3.4" height="26" rx="1.7" transform="rotate(18 35.7 23)" fill="#F2C078"/>
+  <rect x="40" y="10" width="3.4" height="26" rx="1.7" transform="rotate(28 41.7 23)" fill="#F2C078"/>
+  <!-- wok bowl -->
+  <path d="M12 30 h40 a20 20 0 0 1 -40 0 Z" fill="#C1DBB3"/>
+  <path d="M12 30 h40 a20 20 0 0 1 -40 0 Z" fill="none" stroke="#7EBC89" stroke-width="2.5"/>
+  <!-- steam -->
+  <path d="M26 24 q3 -4 0 -8" fill="none" stroke="#F2C078" stroke-width="2.4" stroke-linecap="round"/>
+  <path d="M34 24 q3 -4 0 -8" fill="none" stroke="#F2C078" stroke-width="2.4" stroke-linecap="round"/>
+</svg>
