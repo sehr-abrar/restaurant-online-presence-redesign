@@ -8,7 +8,7 @@ export default function Footer() {
     <footer className="footer">
       <div className="container footer__grid">
         <div className="footer__brand">
-          <Logo />
+          <Logo tone="dark" />
           <p>{RESTAURANT.blurb}</p>
           <div className="footer__socials">
             <a href={RESTAURANT.socials.instagram} target="_blank" rel="noreferrer">

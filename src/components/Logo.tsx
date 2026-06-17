@@ -1,7 +1,13 @@
-type Props = { size?: number }
+type Props = {
+  size?: number
+  // 'light' → dark text (default, for light backgrounds)
+  // 'dark'  → cream text so the "Wok" wordmark stays legible on dark backgrounds
+  tone?: 'light' | 'dark'
+}
 
 // Inline SVG mark: a wok bowl, rising steam, and crossed chopsticks.
-export default function Logo({ size = 34 }: Props) {
+export default function Logo({ size = 34, tone = 'light' }: Props) {
+  const wordColor = tone === 'dark' ? 'var(--cream)' : 'var(--ink)'
   return (
     <span style={{ display: 'inline-flex', alignItems: 'center', gap: 10 }}>
       <svg width={size} height={size} viewBox="0 0 64 64" aria-hidden="true">
@@ -19,7 +25,7 @@ export default function Logo({ size = 34 }: Props) {
           fontWeight: 700,
           fontSize: size * 0.62,
           letterSpacing: '-0.01em',
-          color: 'var(--ink)',
+          color: wordColor,
         }}
       >
         Wok<span style={{ color: 'var(--coral)' }}>Wise</span>

@@ -164,15 +164,25 @@
   font-size: 1.05rem;
 }
 
-/* ---- CTA band ---- */
+/* ---- CTA band ----
+   A contained, rounded coral card (rather than a full-bleed band) so it has
+   breathing room above (from the story section) and below (before the footer),
+   and the button never hugs the page edges. */
 .cta-band {
-  background: var(--coral);
   color: #fff;
+  /* equal cream gap above (dividing it from the green story section) and
+     below (before the footer) */
+  padding: 88px 24px 88px;
 }
 
 .cta-band__inner {
+  max-width: var(--maxw);
+  margin: 0 auto;
+  background: var(--coral);
+  border-radius: var(--radius-lg);
   text-align: center;
-  padding: 96px 0;
+  padding: 76px 32px;
+  box-shadow: var(--shadow-md);
 }
 
 .cta-band h2 {
