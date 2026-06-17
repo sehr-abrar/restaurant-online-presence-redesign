@@ -98,7 +98,7 @@ export default function Home() {
           </div>
           <div className="story__copy">
             <span className="eyebrow">Our story</span>
-            <h2 className="section-title">From a family recipe book to Mott Street</h2>
+            <h2 className="section-title">From a family recipe book to 18th Avenue</h2>
             <p>
               WokWise began with a simple idea: the food we grew up eating deserved a home of its own —
               not buried inside a delivery app. We pull our noodles by hand each morning and braise our

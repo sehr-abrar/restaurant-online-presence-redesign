@@ -3,7 +3,7 @@ import './Location.css'
 
 // Embed uses the public Google Maps query URL (no API key needed for the prototype).
 const MAP_EMBED =
-  'https://maps.google.com/maps?q=88%20Mott%20Street%20New%20York%20NY%2010013&t=&z=15&ie=UTF8&iwloc=&output=embed'
+  'https://maps.google.com/maps?q=7524%2018th%20Ave%20Brooklyn%20NY%2011214&t=&z=15&ie=UTF8&iwloc=&output=embed'
 
 export default function Location() {
   return (

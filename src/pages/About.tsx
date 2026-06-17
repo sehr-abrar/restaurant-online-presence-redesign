@@ -5,7 +5,7 @@ import './About.css'
 const VALUES = [
   { icon: '🍜', title: 'Made by hand', text: 'Noodles pulled and dumplings folded fresh every morning.' },
   { icon: '🌿', title: 'Honest ingredients', text: 'Local produce and no shortcuts in our sauces or broths.' },
-  { icon: '🏮', title: 'Rooted in tradition', text: 'Family recipes carried from Sichuan to Mott Street.' },
+  { icon: '🏮', title: 'Rooted in tradition', text: 'Family recipes carried from Sichuan to Bensonhurst.' },
 ]
 
 export default function About() {
