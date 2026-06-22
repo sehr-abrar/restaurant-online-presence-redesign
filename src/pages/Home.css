@@ -175,13 +175,13 @@
   padding: 88px 24px 88px;
 }
 
-.cta-band__inner {
+.cta-band .cta-band__inner {
   max-width: var(--maxw);
   margin: 0 auto;
   background: var(--coral);
   border-radius: var(--radius-lg);
   text-align: center;
-  padding: 76px 32px;
+  padding: 64px 32px;
   box-shadow: var(--shadow-md);
 }
 
