@@ -163,6 +163,12 @@ Future iterations of this project could include:
 
 ---
 
+## Demo
+
+Here is a demo of the [platform](https://imgur.com/a/kz6RNVA)!
+
+---
+
 ## Author
 
 Sehr Abrar
