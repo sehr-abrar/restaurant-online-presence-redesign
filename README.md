@@ -1,5 +1,23 @@
 # Restaurant Online Presence Redesign
 
+## Contents
+
+* [Overview](#overview)
+* [Problem Statement](#problem-statement)
+* [Goals](#goals)
+* [Research Summary](#research-summary)
+* [User Persona](#user-persona)
+* [Information Architecture](#information-architecture)
+* [UX Flows](#ux-flows)
+* [UI Design](#ui-design)
+* [Design System](#design-system)
+* [Prototype](#prototype)
+* [Reflection](#reflection)
+* [Future Improvements](#future-improvements)
+* [Tools](#tools)
+* [Demo](#demo)
+
+
 ## Overview
 
 This is a UX/UI case study focused on designing a responsive website for an independent Chinese restaurant that currently relies on third-party delivery platforms such as DoorDash and Grubhub as its main digital presence.
