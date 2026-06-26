@@ -20,7 +20,7 @@
 
 ## Overview
 
-This is a UX/UI case study focused on designing a responsive website for an independent Chinese restaurant that currently relies on third-party delivery platforms such as DoorDash and Grubhub as its main digital presence.
+This is a UX/UI case study focused on designing a responsive website for an independent Chinese restaurant that currently relies on third-party delivery platforms such as DoorDash and Grubhub as its main digital presence. This projects focused on a prototype called 'WokWise' which is inspired by this local establishment.
 
 While these platforms allow customers to place orders, they do not provide a centralized or branded experience for the restaurant itself. Important information such as the menu, restaurant story, and updates is fragmented across multiple services, which limits both usability for customers and brand control for the business.
 
